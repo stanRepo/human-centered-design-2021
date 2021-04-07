@@ -1,152 +1,74 @@
-# Human Centered Design @cmda-minor-web 2021
-//Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen. 
+# Human Centered Design
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+Deze opdracht wordt uitgevoerd als onderdeel van de Minor Web Development aan de Hogeschool van Amsterdam. Hierin staat Exclusive Design centraal. Als uitgangspunt wordt een scenario gekozen waarin een persoon met een fysieke beperking bestudeerd wordt. Hierna wordt er 3 keer op een concept geitereerd met feedback van de gebruiker. 
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. Een Frontend Designer en Developer heeft verstand van techniek, UX en design. Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
+Mijn gebruiker is: Marijn.
 
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En is het leuk?
+*Marijn is waarschijnlijk de beste developer die je ooit gaat ontmoeten. Een briljante nerd. Hij doet al jaren met heel veel plezier mee aan deze opdracht. Marijn heeft een motorische stoornis. Hij gebruikt zijn computer dus anders dan wij. Hij heeft veel moeite met fijne motoriek. Hij gebruikt zijn toetsenbord om te navigeren, en in de Accessibility settings van zijn Mac heeft hij Sticky Keys aan staan.*
 
+Voor deze opdracht focus ik mij op de het prototype gebaseerd rondom de Drag & Drop functionaliteit en het bewerken van lijsten met deze functionaliteit. 
 
-## Opdracht
+*Hoe kun je een drag & drop lijst optimaliseren voor een gebruiker die afhankelijk is van zijn toetsenbord én motorisch gestoord is?*
 
-### Ontwerpen met en voor echte mensen
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
+## Week 1
+### Onderzoek Drag & drop en bereid vragen voor om aan Marijn te stellen.
 
-- [Opdracht - Ontwerpen met en voor echte mensen](course/Opdracht.md)
+*Onderzoek*
 
+<details>
+- In dit artikel wordt geconcludeerd dat een developer die zich focust op toegankelijkheid functionaliteit moeten vermijden die uitsluitend bestemt is voor bediening met de muis. Ook moeten zij snelkoppelingen inbouwen zoals skip-to-content functies en focus-elementen. Deze laatsten moeten de verzuring voor de gebruiker beperken. (4)
 
-### Leerdoelen
+- Tijdens het lezen van een webpagina over motor disability (5) las ik dat deze gebruikers vooral moeite hebben met het gebruik van een muis en/of een touchscreen. Ik bedacht me waarom gebruiken we het toetsenbord niet om de muis te besturen. Windows had daar al een oplossing voor. (6) Maar deze oplossing heeft slechts beperkte functionaliteit. Kan ik de functionaliteit van het toetsenbord verder enhancen om het besturen van de muis te verbeteren?
 
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+- Ik ben benieuwd of Marijn naast de native oplossingen voor het vermijden van een muis ook gebruik maakt van browser extensies zoals bijvoorbeeld Keyboard-Surfing(8) voor chrome?
+</details>
 
-[Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
+*Vragen*
+<details>
+1. Omdat Marijn erg afhankelijk is van zijn toetsenbord vraag ik mij af welke toetsen hij de voorkeur aan geeft voor de basisbewegingen omhoog, naar beneden, naar links en naar rechts. Gebruikt hij liever pijltoetsen of WASD zoals gamers vaak doen. 
 
+2. Is het handig om shortcuts te maken? bijvoorbeeld 2 toetsen indrukken om naar lijst-A te springen en 2 andere om naar lijst-B te springen.
 
+3. Gebruikt Marijn ARIA-Dropeffect wanneer dit beschikbaar is? Zo ja, welke
 
-## Planning & programma
+4. Hoe komt Marijn er achter dat er een skip-to-content functie op een pagina is en gebruikt hij deze? Wat zijn zijn ervaringen hiermee?
 
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1)  | Intro, College inclusive design + Testen | Gastcollege + Testen | ~~Feedbackgesprekken~~ |
-| [Week 2](#week-2)  | College over testen + Testen  | Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 3](#week-3)  | College + Testen  |  Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 4](#week-4)  | Presentaties + Beoordelingsgesprekken | Beoordelingsgesprekken | Beoordelingsgesprekken + Weekly Nerd |
+5. Kun je je toetsenbord gebruiken om je muis te besturen. Is het handig om met de shift knop de snelheid te bepalen waarmee je de muis bestuurd. Of misschien wel met de numpad(na een activatie handeling?) Is het makkelijker dan tabben?
 
+6. Maakt marijn gebruik van chrome extensies om zijn werk te doen? Bijvoorbeeld Keyboard-Surfing(8) voor chrome?
 
+</details>
 
-### Week 1
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
+## Gezamelijk document
 
-#### Woensdag 7 april
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_.
+Naast de informatie die ik zelf heb opgezocht heeft de werkgroep waar ik toe behoor ook samen in een document gewerkt. Die vind je [hier](https://docs.google.com/document/d/1crOSkO_FPe3sheL5gkQYl8OmMcbRSDq092uVghG5HdA/edit?usp=sharing)
+# Exclusive Design Principles (7)
 
-Daarna prototypen en testen
+1. Provide a unique experience
+2. Ignore situation
+3. Be inconsistent/innovative
+4. Take control
+5. Offer the best possible solution
+6. Prioritise identity
+7. Add Nonsense
 
-- 14:00 Groep Darice
-- 15:00 Groep Eric
 
-#### Donderdag 8 april
-Donderdag begint de les met een gastcollege. Deze les gaan we het artikelen [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/) bespreken.
+# Literatuurlijst
 
-Daarna prototypen en testen
+1. Drag & drop Interaction Patterns. https://medium.com/salesforce-ux/4-major-patterns-for-accessible-drag-and-drop-1d43f64ebf09
 
-- 10:30 Groep Roger 
-- 16:30 Groep Marijn
+2. Accessible Drag And Drop Using WAI-ARIA. Gez Lemon. Articles. 08-07-2009. https://dev.opera.com/articles/accessible-drag-and-drop/
 
+3. Sticky Keys. Appligent. https://appligent.com/keyboard-accessibility-mouse-alternatives/sticky-keys/
 
-#### Vrijdag 9 april
-Deze dag is voor Real-Time web...
+4. Motor Disabilities and what you need for accessibility. Chris Ward. Telerik. 30-07-2019. https://www.telerik.com/blogs/motor-disabilities-and-what-you-need-for-accessibility
 
+5. How we can help. Atalan. https://www.atalan.fr/agissons/en/handicap-moteur.html
 
-### Week 2
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten? 
+6. Use the mouse keys to move the mouse pointer. Microsoft Support. https://support.microsoft.com/en-us/windows/use-mouse-keys-to-move-the-mouse-pointer-9e0c72c8-b882-7918-8e7b-391fd62adf33
 
-#### Woensdag 14 april
-Woensdag krijg je een college over testen. Voor deze les moet je het artikel [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) lezen.
+7. Exclusive Design Principles. Vasilis van Gemert. https://vasilis.nl/nerd/exclusive-design-principles/
 
-Daarna voor de tweede keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 15 april
-Donderdag begint de les met een gastcollege van Marie van Driessche. 
-
-Daarna voor de tweede keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 14:00 Groep Marijn
-
-#### Vrijdag 16 april
-Vrijdag zijn er coachgesprekken in teams.
-
-
-
-
-### Week 3
-In week 3 gaan we verder met testen, itereren en reflecteren. Deze week is de laatste sessie met je mens. 
-
-#### Woensdag 21 april
-Woensdag beginnen we met een college. Voor deze les moet je dit artikel lezen: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/).
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 22 april
-Donderdag begint de les met een gastcollege van Johan Huijkman.
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 14:00 Groep Marijn
-
-
-#### Vrijdag 23 april
-Vrijdag zijn er coachgesprekken.
-
-
-
-
-### Week 4
-
-Deze week hebben we een gesprek waarin we je vorderingen en bevindingen bespreken. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
-
-
-#### Woensdag 28 april
-Teampresentaties en beoordelingsgesprekken. 
-
-#### Donderdag 29 april
-Beoordelingsgesprekken
-
-#### Vrijdag 30 april
-Beoordelingsgesprekken + Weekly Nerd
-
-
-
-
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+8. Keyboard-Surfing. Somnia. https://chrome.google.com/webstore/detail/keyboard-surfing/hmaflaokeodbfghjjgmakejjjjfhihpi?hl=en
