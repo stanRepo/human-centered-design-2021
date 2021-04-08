@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-family: monospace;
+}
+img {
+  max-width: 100px;
+}
+.mouseBot-layer {
+  margin: 0;
+  padding: 10px;
+  top: 0;
+
+  background-color: rgba(97, 97, 97, 0.692);
+  pointer-events: none;
+
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: 1000;
+}
+.mouseBot-layer > h1 {
+  color: white;
+}
