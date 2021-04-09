@@ -1,21 +1,20 @@
-
 # Human Centered Design
 
-Deze opdracht wordt uitgevoerd als onderdeel van de Minor Web Development aan de Hogeschool van Amsterdam. Hierin staat Exclusive Design centraal. Als uitgangspunt wordt een scenario gekozen waarin een persoon met een fysieke beperking bestudeerd wordt. Hierna wordt er 3 keer op een concept geitereerd met feedback van de gebruiker. 
+Deze opdracht wordt uitgevoerd als onderdeel van de Minor Web Development aan de Hogeschool van Amsterdam. Hierin staat Exclusive Design centraal. Als uitgangspunt wordt een scenario gekozen waarin een persoon met een fysieke beperking bestudeerd wordt. Hierna wordt er 3 keer op een concept geitereerd met feedback van de gebruiker.
 
 Mijn gebruiker is: Marijn.
 
-*Marijn is waarschijnlijk de beste developer die je ooit gaat ontmoeten. Een briljante nerd. Hij doet al jaren met heel veel plezier mee aan deze opdracht. Marijn heeft een motorische stoornis. Hij gebruikt zijn computer dus anders dan wij. Hij heeft veel moeite met fijne motoriek. Hij gebruikt zijn toetsenbord om te navigeren, en in de Accessibility settings van zijn Mac heeft hij Sticky Keys aan staan.*
+_Marijn is waarschijnlijk de beste developer die je ooit gaat ontmoeten. Een briljante nerd. Hij doet al jaren met heel veel plezier mee aan deze opdracht. Marijn heeft een motorische stoornis. Hij gebruikt zijn computer dus anders dan wij. Hij heeft veel moeite met fijne motoriek. Hij gebruikt zijn toetsenbord om te navigeren, en in de Accessibility settings van zijn Mac heeft hij Sticky Keys aan staan._
 
-Voor deze opdracht focus ik mij op de het prototype gebaseerd rondom de Drag & Drop functionaliteit en het bewerken van lijsten met deze functionaliteit. 
+Voor deze opdracht focus ik mij op de het prototype gebaseerd rondom de Drag & Drop functionaliteit en het bewerken van lijsten met deze functionaliteit.
 
-*Hoe kun je een drag & drop lijst optimaliseren voor een gebruiker die afhankelijk is van zijn toetsenbord én motorisch gestoord is?*
-
+_Hoe kun je een drag & drop lijst optimaliseren voor een gebruiker die afhankelijk is van zijn toetsenbord én motorisch gestoord is?_
 
 ## Week 1
+
 ### Onderzoek Drag & drop en bereid vragen voor om aan Marijn te stellen.
 
-*Onderzoek*
+_Onderzoek_
 
 <details>
 - In dit artikel wordt geconcludeerd dat een developer die zich focust op toegankelijkheid functionaliteit moeten vermijden die uitsluitend bestemt is voor bediening met de muis. Ook moeten zij snelkoppelingen inbouwen zoals skip-to-content functies en focus-elementen. Deze laatsten moeten de verzuring voor de gebruiker beperken. (4)
@@ -25,9 +24,12 @@ Voor deze opdracht focus ik mij op de het prototype gebaseerd rondom de Drag & D
 - Ik ben benieuwd of Marijn naast de native oplossingen voor het vermijden van een muis ook gebruik maakt van browser extensies zoals bijvoorbeeld Keyboard-Surfing(8) voor chrome?
 </details>
 
-*Vragen*
+_Vragen_
+
+Onderstaande vragen had ik zelf voorbereid. In groepsverband is ervoor gekozen om al onze vragen samen te voegen en de belangrijkste te stellen.
+
 <details>
-1. Omdat Marijn erg afhankelijk is van zijn toetsenbord vraag ik mij af welke toetsen hij de voorkeur aan geeft voor de basisbewegingen omhoog, naar beneden, naar links en naar rechts. Gebruikt hij liever pijltoetsen of WASD zoals gamers vaak doen. 
+1. Omdat Marijn erg afhankelijk is van zijn toetsenbord vraag ik mij af welke toetsen hij de voorkeur aan geeft voor de basisbewegingen omhoog, naar beneden, naar links en naar rechts. Gebruikt hij liever pijltoetsen of WASD zoals gamers vaak doen.
 
 2. Is het handig om shortcuts te maken? bijvoorbeeld 2 toetsen indrukken om naar lijst-A te springen en 2 andere om naar lijst-B te springen.
 
@@ -41,9 +43,46 @@ Voor deze opdracht focus ik mij op de het prototype gebaseerd rondom de Drag & D
 
 </details>
 
-## Gezamelijk document
+Samengevoegde vragen
+
+<details>
+
+## Algemeen
+
+1. Kan je iets over jezelf vertellen?
+
+_44 jaar_
+_Woont met 2 kinderen en een vrouw_
+_Marijn is een technische chief architect. Hij zorgt ervoor dat alle meta-data voor vrijwel alle muziek ter wereld klopt._ - Wat doe je graag in je vrije tijd? - Favoriete kleur/muziekstijl?
+_Takkeherrie_
+_Hij is niet into the kleurtjes. ALTIJD dark-mode._
+
+2. Wat doe je het liefst op het internet?
+3. Hoe gebruik je jouw devices?
+   _- 3 beeldschermen_
+   Alles open laten staan.
+   Keyboard, trackpad
+   Waar liggen jouw grootste pijnpunten bij het gebruik van het internet?
+   Hoe minder hij hoeft te doen, hoe beter het is.
+   Welke tools gebruik je om je te ondersteunen?
+   Wat voor browser gebruik je? - Mac besturingssysteem
+   Heb je voorbeelden van sites die je fijn vindt om te gebruiken?
+   Editor: Vi(m)
+   Zo niet, dan VI(m) shortcuts in andere apps
+   Komodo editor
+   Browser: Chrome
+   Waar kijk je het meest naar uit qua ontwikkelingen in het web?
+
+</details>
+
+_Gezamelijk document_
 
 Naast de informatie die ik zelf heb opgezocht heeft de werkgroep waar ik toe behoor ook samen in een document gewerkt. Die vind je [hier](https://docs.google.com/document/d/1crOSkO_FPe3sheL5gkQYl8OmMcbRSDq092uVghG5HdA/edit?usp=sharing)
+
+_Test_
+
+Omdat dit de eerste week is heeft de groep die ingedeeld is bij Marijn zich verdeeld in 2 subgroepen. Hier zijn in groepsverband tests voor gemaakt.
+
 # Exclusive Design Principles (7)
 
 1. Provide a unique experience
@@ -53,7 +92,6 @@ Naast de informatie die ik zelf heb opgezocht heeft de werkgroep waar ik toe beh
 5. Offer the best possible solution
 6. Prioritise identity
 7. Add Nonsense
-
 
 # Literatuurlijst
 
