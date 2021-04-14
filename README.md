@@ -83,6 +83,12 @@ _Test_
 
 Omdat dit de eerste week is heeft de groep die ingedeeld is bij Marijn zich verdeeld in 2 subgroepen. Hier zijn in groepsverband tests voor gemaakt.
 
+# Week 2
+
+## Video call Team Marijn en Vasilis
+
+- Tijdens dit gesprek bespreken we de bevindingen van andere teamleden. Ook bespreken we de tests die teamleden gaan uitvoeren (indien voorbereid)
+
 # Exclusive Design Principles (7)
 
 1. Provide a unique experience
