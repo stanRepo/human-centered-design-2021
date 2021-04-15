@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mouseElements"></div>
+    <header>
+      <h1>SCRUM Test Week 2</h1>
+      <p>*CSS by Team Marijn</p>
+
+      <ul id="testOmschrijving">
+        <h3>Testomschrijving</h3>
+        <li><b>Doel: </b> Gooi zo snel mogelijk items weg</li>
+        <li>
+          <b>Hypothese: </b> Het is voor Marijn makkelijker om kaartjes te
+          verplaatsen / weg te gooien als hij er meerdere tegelijk kan
+          "drag&droppen"
+        </li>
+        <li>Klik op kaartjes</li>
+        <li>Klik op "Plaats Terug"</li>
+        <li>Klik op de prullenbak</li>
+        <li>Reload Pagina</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h2>To Do</h2>
+        <button class="plaatsTerug hidden">Plaats Terug</button>
+        <ol>
+          <li tabindex="0">
+            <p>Task 1</p>
+          </li>
+          <li tabindex="0">
+            <p>Task 2</p>
+          </li>
+          <li tabindex="0">
+            <p>Task 3</p>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>In Progress</h2>
+        <button class="plaatsTerug hidden">Plaats Terug</button>
+        <ol>
+          <li tabindex="0">
+            <p>Task 4</p>
+          </li>
+          <li tabindex="0">
+            <p>Task 5</p>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>Done</h2>
+        <button class="plaatsTerug hidden">Plaats Terug</button>
+        <ol>
+          <li tabindex="0">
+            <p>Task 6</p>
+          </li>
+        </ol>
+      </section>
+
+      <aside>
+        <div id="dustBin">
+          <p>Prullenbak</p>
+          <img src="./dustbin.png" alt="" />
+        </div>
+      </aside>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
