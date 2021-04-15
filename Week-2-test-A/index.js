@@ -56,7 +56,7 @@ function deleteMouseEl(mouseEl) {
   mouseEl.parentElement.removeChild(mouseEl);
 }
 
-function dustBin(mouseEl, pickedUpItems) {
+function dustBin(mouseEl) {
   const dustBin = document.querySelector("#dustBin");
   dustBin.addEventListener("click", () => {
     // mouseEl.paren;
