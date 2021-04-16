@@ -1,3 +1,5 @@
+*Testverslaging in Wiki*
+
 # Human Centered Design
 
 Deze opdracht wordt uitgevoerd als onderdeel van de Minor Web Development aan de Hogeschool van Amsterdam. Hierin staat Exclusive Design centraal. Als uitgangspunt wordt een scenario gekozen waarin een persoon met een fysieke beperking bestudeerd wordt. Hierna wordt er 3 keer op een concept geitereerd met feedback van de gebruiker.
