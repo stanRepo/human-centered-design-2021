@@ -87,7 +87,9 @@ Omdat dit de eerste week is heeft de groep die ingedeeld is bij Marijn zich verd
 
 ## Video call Team Marijn en Vasilis
 
-- Tijdens dit gesprek bespreken we de bevindingen van andere teamleden. Ook bespreken we de tests die teamleden gaan uitvoeren (indien voorbereid)
+- Tijdens dit gesprek bespreken we de bevindingen van andere teamleden. Ook bespreken we de tests die teamleden gaan uitvoeren (indien voorbereid). Dit gesprek diende als voorbereiding / checkup voor de het 2e testgesprek. 
+
+
 
 # Exclusive Design Principles (7)
 
