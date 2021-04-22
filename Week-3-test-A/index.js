@@ -75,6 +75,7 @@ const listenForPutDown = () => {
 
 const dustBin = () => {
   const bin = document.querySelector("#dustBin");
+  bin.style.cursor = "cell";
 
   console.log(bin);
   bin.addEventListener("click", (e) => {
