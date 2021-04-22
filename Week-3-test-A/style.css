@@ -5,8 +5,10 @@
 
 body {
   font-family: "raleway", sans-serif;
+  background-color: whitesmoke;
+  padding: 100px;
+  min-height: 90vh;
 }
-
 main,
 header {
   display: flex;
@@ -73,6 +75,7 @@ ol > li input {
 ol > li:focus,
 ol > li:hover {
   border-left: 5px solid rgb(176, 250, 27);
+  cursor: grab;
 }
 
 section:hover {
@@ -81,40 +84,43 @@ section:hover {
 
 ol > li > p {
   padding: 0.5em 1em;
+  pointer-events: none;
 }
 
 /* -------------------- */
 
 .mouseEl {
   position: absolute;
-  width: 100px;
-  height: 30px;
+  min-width: 100px;
+  min-height: 30px;
   background-color: white;
   border-left: 5px solid yellowgreen;
   list-style-type: none;
   padding: 5px;
   text-align: center;
   border-radius: var(--round-corners);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 0px 6px 2px #000000;
 }
 
 .hidden {
   display: none;
 }
-#dustBin > p {
-  font-size: x-large;
+
+#mouseElements {
+  position: absolute;
+}
+
+#dustBin > img {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 #dustBin {
   display: flex;
-  flex-direction: column;
-  background-color: #ebecf0;
-  padding: 0.8rem;
-  border-radius: var(--round-corners);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  min-width: 10rem;
+  justify-content: center;
+  vertical-align: baseline;
 }
 
 .plaatsTerug {
-  padding: 5px;
+  cursor: cell;
 }

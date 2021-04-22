@@ -15,67 +15,57 @@
   <body>
     <div id="mouseElements"></div>
     <header>
-      <h1>SCRUM Test Week 2</h1>
-      <p>*CSS by Team Marijn</p>
+      <h1>Wat gaan we eten vanavond pap?</h1>
+      <p>Test Week 3</p>
 
       <ul id="testOmschrijving">
-        <h3>Testomschrijving</h3>
-        <li><b>Doel: </b> Gooi zo snel mogelijk items weg</li>
         <li>
-          <b>Hypothese: </b> Het is voor Marijn makkelijker om kaartjes te
-          verplaatsen / weg te gooien als hij er meerdere tegelijk kan
-          "drag&droppen"
+          <b>Doel: </b> Maak het lijstje "gerechten om uit te kiezen" zo snel
+          mogelijk leeg
         </li>
-        <li>Klik op kaartjes</li>
-        <li>Klik op "Plaats Terug"</li>
-        <li>Klik op de prullenbak</li>
-        <li>Reload Pagina</li>
+        <li><b>Regel 1: </b> Gebruik je trackpad</li>
+        <li><b>Regel 2: </b> Doe dit met zo weinig mogelijk handelingen</li>
       </ul>
     </header>
     <main>
       <section>
-        <h2>To Do</h2>
+        <h2>Gerechten om uit te kiezen</h2>
         <button class="plaatsTerug hidden">Plaats hier</button>
+        <!-- <button id="pakAlles">Pak alles</button> -->
         <ol>
           <li tabindex="0">
-            <p>Task 1</p>
+            <p>Sushi</p>
           </li>
           <li tabindex="0">
-            <p>Task 2</p>
+            <p>Pizza</p>
           </li>
           <li tabindex="0">
-            <p>Task 3</p>
+            <p>Kapsalon</p>
+          </li>
+          <li tabindex="0">
+            <p>Patat</p>
+          </li>
+          <li tabindex="0">
+            <p>Stamppot</p>
+          </li>
+          <li tabindex="0">
+            <p>Als er maar vlees in zit</p>
           </li>
         </ol>
       </section>
       <section>
-        <h2>In Progress</h2>
-        <button class="plaatsTerug hidden">Plaats hier</button>
-        <ol>
-          <li tabindex="0">
-            <p>Task 4</p>
-          </li>
-          <li tabindex="0">
-            <p>Task 5</p>
-          </li>
-        </ol>
-      </section>
-      <section>
-        <h2>Done</h2>
-        <button class="plaatsTerug hidden">Plaats hier</button>
-        <ol>
-          <li tabindex="0">
-            <p>Task 6</p>
-          </li>
-        </ol>
-      </section>
+        <h2>Dit niet ❌</h2>
 
-      <aside>
         <div id="dustBin">
-          <p>Prullenbak</p>
-          <img src="./dustbin.png" alt="" />
+          <img src="./bin.png" alt="" />
         </div>
-      </aside>
+        <ol></ol>
+      </section>
+      <section>
+        <h2>Dit wel ✅</h2>
+        <button class="plaatsTerug hidden">Plaats hier</button>
+        <ol></ol>
+      </section>
     </main>
 
     <script src="index.js"></script>

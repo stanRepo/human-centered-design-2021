@@ -5,10 +5,12 @@ function pickUp() {
   const mouseEl = document.querySelector(".mouseEl");
 
   items.forEach((item) => {
+    // loop through list items
     item.addEventListener("click", () => {
-      item.parentElement.parentElement.children[1].classList.remove("hidden");
+      // add eventListener
+      item.parentElement.parentElement.children[1].classList.remove("hidden"); // display "plaats hier" button
 
-      const mouseEl = document.createElement("p");
+      const mouseEl = document.createElement("li");
       mouseEl.classList.add("mouseEl");
       mouseEl.innerHTML += item.innerText;
       pickedUpItems.push(mouseEl);
@@ -23,7 +25,7 @@ function pickUp() {
         document.onmousemove = (e) => {
           pickedUpItems.forEach((item, i) => {
             item.style.left = `${e.clientX + 5}px`;
-            item.style.top = `${e.clientY + i * 30}px`;
+            item.style.top = `${e.clientY + i * 45}px`;
           });
         };
       }
