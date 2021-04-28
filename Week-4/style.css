@@ -1,5 +1,5 @@
 * {
-
+  font-size: calc(60% + 0.8vmin);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -123,5 +123,4 @@ ol > li > p {
 
 .plaatsTerug {
   cursor: cell;
-  font-size: xx-large;
 }

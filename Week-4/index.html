@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mouseElements"></div>
+    <header>
+      <h1>Wat gaan we eten vanavond pap?</h1>
+
+      <ul id="testOmschrijving">
+        <li>
+          <b>Doel: </b> Maak het lijstje "gerechten om uit te kiezen" zo snel
+          mogelijk leeg
+        </li>
+        <li><b>Regel 1: </b> Gebruik je trackpad</li>
+        <li><b>Regel 2: </b> Doe dit met zo weinig mogelijk handelingen</li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <h2>Gerechten om uit te kiezen</h2>
+        <button class="plaatsTerug hidden">Plaats hier</button>
+        <!-- <button id="pakAlles">Pak alles</button> -->
+        <ol>
+          <li tabindex="0">
+            <p>Sushi 🍣</p>
+          </li>
+          <li tabindex="0">
+            <p>Pizza 🍕</p>
+          </li>
+          <li tabindex="0">
+            <p>Doner 🥙</p>
+          </li>
+          <li tabindex="0">
+            <p>Patat 🍟</p>
+          </li>
+          <li tabindex="0">
+            <p>Stamppot 🍲</p>
+          </li>
+          <li tabindex="0">
+            <p>Indische Curry 🍛</p>
+          </li>
+          <li tabindex="0">
+            <p>Als er maar vlees in zit 🥩</p>
+          </li>
+        </ol>
+      </section>
+      <section>
+        <h2>Dit niet ❌</h2>
+
+        <div id="dustBin">
+          <img src="./bin.png" alt="" />
+        </div>
+        <ol></ol>
+      </section>
+      <section>
+        <h2>Dit wel ✅</h2>
+        <button class="plaatsTerug hidden">Plaats hier</button>
+        <ol></ol>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
