@@ -62,6 +62,7 @@ const listenForPutDown = () => {
           console.log(child);
           child.classList.remove("mouseEl");
           child.style.marginTop = 0;
+          child.addEventListener("click", pickUp);
         });
 
         placeBackButtons.forEach((thisBTN) => {
