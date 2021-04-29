@@ -47,19 +47,19 @@ Marijn wilt door meerdere items tegelijk te drag&droppen makkelijker een dashboa
 
 _Onderzoek_
 
-<details>
+
 - In dit artikel wordt geconcludeerd dat een developer die zich focust op toegankelijkheid functionaliteit moeten vermijden die uitsluitend bestemt is voor bediening met de muis. Ook moeten zij snelkoppelingen inbouwen zoals skip-to-content functies en focus-elementen. Deze laatsten moeten de verzuring voor de gebruiker beperken. (4)
 
 - Tijdens het lezen van een webpagina over motor disability (5) las ik dat deze gebruikers vooral moeite hebben met het gebruik van een muis en/of een touchscreen. Ik bedacht me waarom gebruiken we het toetsenbord niet om de muis te besturen. Windows had daar al een oplossing voor. (6) Maar deze oplossing heeft slechts beperkte functionaliteit. Kan ik de functionaliteit van het toetsenbord verder enhancen om het besturen van de muis te verbeteren?
 
 - Ik ben benieuwd of Marijn naast de native oplossingen voor het vermijden van een muis ook gebruik maakt van browser extensies zoals bijvoorbeeld Keyboard-Surfing(8) voor chrome?
-</details>
+
 
 _Vragen_
 
 Onderstaande vragen had ik zelf voorbereid. In groepsverband is ervoor gekozen om al onze vragen samen te voegen en de belangrijkste te stellen.
 
-<details>
+
 1. Omdat Marijn erg afhankelijk is van zijn toetsenbord vraag ik mij af welke toetsen hij de voorkeur aan geeft voor de basisbewegingen omhoog, naar beneden, naar links en naar rechts. Gebruikt hij liever pijltoetsen of WASD zoals gamers vaak doen.
 
 2. Is het handig om shortcuts te maken? bijvoorbeeld 2 toetsen indrukken om naar lijst-A te springen en 2 andere om naar lijst-B te springen.
