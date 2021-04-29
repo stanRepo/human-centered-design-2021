@@ -2,6 +2,31 @@
 
 _Testverslagen staan gedocumenteerd in de Wiki_
 
+# Index
+[Live demo eindconcept](hcd2021.netlify.app)
+
+    + [Let op!](#let-op-)
+- [Human Centered Design](#human-centered-design)
+- [User scenario](#user-scenario)
+- [Onderzoek Drag & drop en bereid vragen voor om aan Marijn te stellen. (Week 1)](#onderzoek-drag---drop-en-bereid-vragen-voor-om-aan-marijn-te-stellen--week-1-)
+- [Probleemstelling](#probleemstelling)
+- [Oplossing](#oplossing)
+- [Conclusies](#conclusies)
+  * [Conclusie Week 1](#conclusie-week-1)
+  * [Conclusie week 2](#conclusie-week-2)
+  * [Conclusie week 3](#conclusie-week-3)
+- [Testverslagen](#testverslagen)
+- [Exclusive Design Principles (7)](#exclusive-design-principles--7-)
+  * [Study situation](#study-situation)
+  * [Prioritise identity](#prioritise-identity)
+  * [Ignore conventions](#ignore-conventions)
+  * [Add nonsense](#add-nonsense)
+- [Literatuurlijst](#literatuurlijst)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 # Human Centered Design
 
 Deze opdracht wordt uitgevoerd als onderdeel van de Minor Web Development aan de Hogeschool van Amsterdam. Hierin staat Exclusive Design centraal. Als uitgangspunt wordt een scenario gekozen waarin een persoon met een fysieke beperking bestudeerd wordt. Hierna wordt er 3 keer op een concept geitereerd met feedback van de gebruiker.
@@ -14,9 +39,11 @@ Voor deze opdracht focus ik mij op de het prototype gebaseerd rondom de Drag & D
 
 _Hoe kun je een drag & drop lijst optimaliseren voor een gebruiker die afhankelijk is van zijn toetsenbord én motorisch gestoord is?_
 
-## Week 1
+# User scenario
 
-### Onderzoek Drag & drop en bereid vragen voor om aan Marijn te stellen.
+Marijn wilt door meerdere items tegelijk te drag&droppen makkelijker een dashboard organiseren zodat hij tijd bespaard en meer tijd overhoud voor zijn nevenactiviteiten.
+
+# Onderzoek Drag & drop en bereid vragen voor om aan Marijn te stellen. (Week 1)
 
 _Onderzoek_
 
@@ -45,55 +72,59 @@ Onderstaande vragen had ik zelf voorbereid. In groepsverband is ervoor gekozen o
 
 6. Maakt marijn gebruik van chrome extensies om zijn werk te doen? Bijvoorbeeld Keyboard-Surfing(8) voor chrome?
 
-</details>
+# Probleemstelling
 
-Samengevoegde vragen
+Door Marijn zijn handicap kost het hem veel moeite op zijn fijne motoriek te gebruiken. In het geval van organisatorische werkzaamheden bij bijvoorbeeld het wijzigen van lijstjes kan dit voor Marijn al tot grote irritaties leiden. Het kost hem relatief veel tijd om iets te selecteren, te klikken, te slepen naar de juiste plek, en daar vervolgens weer klikken of in het ergste geval de linkermuisknop dan pas los laten (in het geval van drag en drop). 
 
-<details>
+# Oplossing
 
-## Algemeen
+Ik heb voor Marijn een multi-select concept uitgewerkt [Live Demo](hcd2021.netlify.app). De interactie is gebouwd rondom het gebruik van een trackpad omdat Marijn aan gaf dat dit voor hem beter zou werken dan tabben en veel verschillende knoppen. Marijn kan in dit concept in tegenstelling tot conventionele drag en drop systemen meerdere items uit het lijstje selecteren waarna ze "aan zijn muis plakken". Vervolgens kan hij de actie uitvoeren die hij voor ogen heeft voor deze items. In mijn concept zijn die acties verplaatsen en/of verwijderen. 
 
-1. Kan je iets over jezelf vertellen?
+Tijdens de test in week 2 met Vasilis en de test met Marijn in week 3 kreeg ik een goede respons van beide testpersonen. De reden waarom dit concept aanslaat is de beperking van het aantal verplaats (muis) en klik (muis) handelingen. Er passen nu meerdere items in "het handje" van de gebruiker. Doordat Marijn niet per item naar de specifieke locatie voor de daaropvolgende actie hoeft te gaan maar meerdere items kan selecteren zonder dat zijn UI te veel besmeurd wordt (er "kleeft" een verkleinde versie aan de muis) kan hij met veel gemak deze handeling uitvoeren. 
 
-_44 jaar_
-_Woont met 2 kinderen en een vrouw_
-_Marijn is een technische chief architect. Hij zorgt ervoor dat alle meta-data voor vrijwel alle muziek ter wereld klopt._ - Wat doe je graag in je vrije tijd? - Favoriete kleur/muziekstijl?
-_Takkeherrie_
-_Hij is niet into the kleurtjes. ALTIJD dark-mode._
 
-2. Wat doe je het liefst op het internet?
-3. Hoe gebruik je jouw devices?
-   _- 3 beeldschermen_
-   Alles open laten staan.
-   Keyboard, trackpad
-   Waar liggen jouw grootste pijnpunten bij het gebruik van het internet?
-   Hoe minder hij hoeft te doen, hoe beter het is.
-   Welke tools gebruik je om je te ondersteunen?
-   Wat voor browser gebruik je? - Mac besturingssysteem
-   Heb je voorbeelden van sites die je fijn vindt om te gebruiken?
-   Editor: Vi(m)
-   Zo niet, dan VI(m) shortcuts in andere apps
-   Komodo editor
-   Browser: Chrome
-   Waar kijk je het meest naar uit qua ontwikkelingen in het web?
+# Conclusies
 
-</details>
+## Conclusie Week 1
+
+In tegenstelling tot het artikel uit mijn desk research gebruikt Marijn het liefst geen knoppen. Naar eigen zeggen "hoe minder tabben, hoe beter". Dit komt omdat hij juist met het indrukken van een specifieke knop veel problemen ervaart. Zijn fijne motoriek laat hem daar meer in de steek dan bij het gebruik van zijn trackpad. Hij gebruikt dan ook nog graag zijn trackpad. Daarom heb ik vanaf week 1 mij gefocust op het implementeren van drag&drop functionaliteit waarbij Marijn zijn trackpad kan gebruiken.
 
 _Gezamelijk document_
 
 Naast de informatie die ik zelf heb opgezocht heeft de werkgroep waar ik toe behoor ook samen in een document gewerkt. Die vind je [hier](https://docs.google.com/document/d/1crOSkO_FPe3sheL5gkQYl8OmMcbRSDq092uVghG5HdA/edit?usp=sharing)
 
-_Test_
+Tijdens week 1 heb ik tevens nog onderzoek gedaan naar het besturen van de muis van een gebruiker d.m.v. javascript in een chrome extensie. Het leek mij toen interessant om Marijn de mogelijkheid te geven om als een gamer met verschillende snelheidsbesturende knoppen zijn muis te laten besturen. Echter ben ik tot de conclusie gekomen dat dit uit veiligheidsoverwegingen niet kan. Na de eerste test kwam ik tevens tot de conclusie dat het voor Marijn toch heel moeilijk was geworden om zijn muis op die manier te besturen. 
+
+## Conclusie week 2
+
+De test is goed gelukt. De feedback beslaat vooral UI gerelateerde punten. Vasilis (=testpersoon deze test) geeft aan dat het voor hem nog niet duidelijk is dat er een multi-select interactiemodel schuil gaat in de site. Hij kan het per ongeluk helemaal niet gebruiken. Als in: Doordat hij niet kan zien dat het bestaat begrijpt hij niet goed hoe het concept gebruikt moet worden en daardoor gaat hij als testpersoon per ongluk op de oude "conventionele" manier 1 voor 1 verplaatsen. Dit is een interessant inzicht en het laat zien dat ik nog meer aandacht moet besteden aan het zichtbaar maken van de interactie mogelijkheden. 
+
+Het begrip dat hiervoor gebruikt wordt is: Affordance. (je ziet een deurklink, je begrijpt dat de handeling open een deur een mogelijkheid is nu.)
+
+## Conclusie week 3
+
+Aanvullend op de test uit week 2 heb ik nu meer aandacht besteed aan het inzichtelijk maken van de interactie mogelijkheden. Ik kwam tot de conclusie dat er meerdere wegen te bewandelen zijn. Ik heb er voor gekozen om de cursor te stylen voor de verschillende "handelingen" die gedaan kunnen worden. Zo diend heet voor de gebruiken visueel duidelijker te worden dat er naast dat hij al iets heeft opgepakt, nog steeds iets extra opgepakt kan worden.
+
+De belangrijkste vraag tijdens test 3 is of Marijn zonder uitleg begrijpt dat hij meerdere items kan selecteren. Dit is helaas nog niet het geval. 
+
+- Hij geeft aan dat er meer forgiveness toegevoegd diend te worden zodat zijn "gebruikersfoutjes" makkelijk even ongedaan kunnen worden gemaakt. 
+
+- Ook diend er nog meer afforcance te worden toegevoegd.
+ 
+
+
+# Testverslagen
+
+_Test Week 1_ 
 
 Omdat dit de eerste week is heeft de groep die ingedeeld is bij Marijn zich verdeeld in 2 subgroepen. Hier zijn in groepsverband tests voor gemaakt.
 
-# Week 2
+Alle testverslagen staan in de Wiki van deze repository:
 
-## Video call Team Marijn en Vasilis
-
-- Tijdens dit gesprek bespreken we de bevindingen van andere teamleden. Ook bespreken we de tests die teamleden gaan uitvoeren (indien voorbereid). Dit gesprek diende als voorbereiding / checkup voor de het 2e testgesprek.
+[Testverslagen](https://github.com/stanRepo/human-centered-design-2021/wiki)
 
 # Exclusive Design Principles (7)
+
 
 1. Provide a unique experience
 2. Ignore situation
@@ -102,6 +133,23 @@ Omdat dit de eerste week is heeft de groep die ingedeeld is bij Marijn zich verd
 5. Offer the best possible solution
 6. Prioritise identity
 7. Add Nonsense
+
+
+##  Study situation
+
+Study situation slaat op het duiken in een persoonlijke situatie van een testpersoon. Hierbij kijk je exclusief naar de ervaring, interactie en gevoel van jou testpersoon bij het verrichten van een bepaalde taak en de handelingen die daarbij horen. Dankzij Study situation kan een correct beeld geschets worden waar testen met een persoonlijke weerslag uit voort kunne komen. Een goed begin is het halve werk. Ook maakt het bestuderen van verschillende situaties mensen tot betere designers omdat ze daar dan ook meer ervaring mee werven binnen deze specifieke groep mensen met unieke probleemstellingen (t.o.v. de massa). Ik heb Study situation toegepast tijdens dit vak door (ook in deze readme) een beeld te schetsen van wie Marijn is en in welke situatie hij verkeerd wanneer hij dit soort organisatorische taken probeerd uit te voeren. 
+
+## Prioritise identity
+
+Maak het ontwerp gebaseerd op 1 persoon, namelijk de testpersoon. En gebruik hierbij als uitgangspunt de identiteit van deze testpersoon. Hiermee maak je het concept persoonlijker wat zijn weerslag geeft op de gebruikerservaring. Doordat het zo persoonlijk wordt kunnen er ook andere ervaringen/inzichten boven water komen die met een algemene onpersoonlijk concept niet aangesproken werden.
+
+## Ignore conventions
+
+Negeer de "gebruikelijke" oplossingen. Probeer out-of-the-box te denken. Iets abnormaals wat bijzonder goed werkt voor deze testpersoon is beter dan iets "normaals" wat niet goed aansluit. Ik heb dit in mij opdracht toegepast doordat multi-select met eenj "kleverige" muis een niet conventionele oplossing is. 
+
+## Add nonsense
+
+Nonsense maakt iets leuk, grappig en daarom ook extra interessant om te gebruiken. Dit leid tot meer interactie tijdens de test van de testpersoon en dit kan een bron van nieuwe waardevolle informatie zijn. In mijn test heb ik het idee "Wat gaan we eten pap?" geimplementeerd omdat Marijns zoon dat tijdens de eerste test aan hem vroeg. Ik bedacht me dat dit al een behoorlijk complexe keuze moet zijn voor Marijns gezin. Daarom heb ik veel verschillende opties erin gezet zodat er genoeg te kiezen valt. 
 
 # Literatuurlijst
 
