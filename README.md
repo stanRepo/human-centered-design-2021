@@ -3,7 +3,7 @@
 _Testverslagen staan gedocumenteerd in de Wiki_
 
 # Index
-[Live demo eindconcept](hcd2021.netlify.app)
+[Live demo eindconcept](https://hcd2021.netlify.app)
 
     + [Let op!](#let-op-)
 - [Human Centered Design](#human-centered-design)
@@ -78,7 +78,7 @@ Door Marijn zijn handicap kost het hem veel moeite op zijn fijne motoriek te geb
 
 # Oplossing
 
-Ik heb voor Marijn een multi-select concept uitgewerkt [Live Demo](hcd2021.netlify.app). De interactie is gebouwd rondom het gebruik van een trackpad omdat Marijn aan gaf dat dit voor hem beter zou werken dan tabben en veel verschillende knoppen. Marijn kan in dit concept in tegenstelling tot conventionele drag en drop systemen meerdere items uit het lijstje selecteren waarna ze "aan zijn muis plakken". Vervolgens kan hij de actie uitvoeren die hij voor ogen heeft voor deze items. In mijn concept zijn die acties verplaatsen en/of verwijderen. 
+Ik heb voor Marijn een multi-select concept uitgewerkt [Live Demo](https://hcd2021.netlify.app). De interactie is gebouwd rondom het gebruik van een trackpad omdat Marijn aan gaf dat dit voor hem beter zou werken dan tabben en veel verschillende knoppen. Marijn kan in dit concept in tegenstelling tot conventionele drag en drop systemen meerdere items uit het lijstje selecteren waarna ze "aan zijn muis plakken". Vervolgens kan hij de actie uitvoeren die hij voor ogen heeft voor deze items. In mijn concept zijn die acties verplaatsen en/of verwijderen. 
 
 Tijdens de test in week 2 met Vasilis en de test met Marijn in week 3 kreeg ik een goede respons van beide testpersonen. De reden waarom dit concept aanslaat is de beperking van het aantal verplaats (muis) en klik (muis) handelingen. Er passen nu meerdere items in "het handje" van de gebruiker. Doordat Marijn niet per item naar de specifieke locatie voor de daaropvolgende actie hoeft te gaan maar meerdere items kan selecteren zonder dat zijn UI te veel besmeurd wordt (er "kleeft" een verkleinde versie aan de muis) kan hij met veel gemak deze handeling uitvoeren. 
 
